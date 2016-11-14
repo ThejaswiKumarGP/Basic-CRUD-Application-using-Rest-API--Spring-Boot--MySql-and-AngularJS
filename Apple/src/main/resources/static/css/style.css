@@ -1,0 +1,7 @@
+@CHARSET "ISO-8859-1";
+.msg-val {
+	color: red;
+}
+.msg-success {
+	color: green;
+} 

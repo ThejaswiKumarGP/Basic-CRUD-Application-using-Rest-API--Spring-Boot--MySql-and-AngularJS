@@ -1,0 +1,196 @@
+body {
+    background-color: #eaeef3;
+}
+.login_header {
+    background-color: transparent;
+}
+.footer_bg {
+    background-color: #286597;
+    color: #ffffff;
+}
+.btn_blue {
+    background-color: #013059;
+    color: #ffffff;
+}
+.btn_blue:focus, .btn_blue:hover {
+    color: #ffffff;
+}
+.btn_white {
+    background-color: #ffffff;
+    color: #000000;
+}
+.btn_green {
+    background-color: #669933;
+    color: #ffffff;
+}
+.btn_green:focus, .btn_green:hover {
+    color: #ffffff;
+}
+.btn_blue{
+    background-color: #286597;
+    color: #ffffff;  
+}
+.btn_blue:focus, .btn_blue:hover {
+    color: #ffffff;
+}
+.link_blk {
+    color: #333333;
+}
+.blue_font {
+    color: #286597;
+}
+input.form-control {
+    color: #666666;
+}
+.alert_bx .form-control:focus {
+   /* border-color: #ff3333;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(255, 51, 51, 0);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(255, 51, 51, 0);*/
+}
+.exclamation_red {
+    color: #ff3333;
+}
+.infoCircle_blue {
+    color: #296597;
+}
+.infoCircle_grey{
+    color: #8C8A8A;
+}
+.error_red{
+    color: #ff0000;
+}
+.check_green {
+    color: #669933;
+}
+.exclamation_orange {
+    color: #ff9900;
+}
+.exclamation_danger{
+    color: #a94442;
+}
+/**COMMON PAGES**/
+
+.cmn_header h1 {
+    color: #286597;
+}
+.cmn_content_section .form-control {
+    color: #999999;
+}
+.cmn_content_section input.form-control , textarea.form-control{
+    color: #000000 !important;
+}
+.bg_white{
+	background-color: #ffffff;
+}
+h1{
+	color: #000000;
+}
+.cmn_header{
+    background-color: #f0f4fa;
+    border-bottom: 1px solid #c5c5c5;
+    box-shadow: 0px 1px 5px #c5c5c5;
+}
+.cmn_footer{
+    background-color: #013059;
+}
+.cmn_content_section .fa-info-circle{
+    color: #296597;
+}
+.alert.alert-warning{
+    background-color: #fcf7e3;
+    color: #c09953;
+}
+.progress_bar_block .progress{
+    background-color: #c2c2c2;
+}
+.progress_bar_block .progress-bar {
+    background-color: #339900;
+    -webkit-box-shadow: inset 0 0px 0 rgba(0, 0, 0, .15);
+    box-shadow: inset 0 0px 0 rgba(0, 0, 0, .15);
+}
+.bordr_top{
+    border-top: 1px solid #cccccc;
+}
+body.page_bg_white{
+    background-color: #ffffff;
+}
+.page_bg_white .cmn_header h1{
+    color: #000000;
+}
+.page_bg_white .cmn_footer{
+    background-color: #e1e1e1;
+}
+.page_bg_white .cmn_header{
+    background-color: #e1e1e1;
+}
+.home_item_list .thumbnail{
+    background-color: #f7f7f7;
+    box-shadow: 1px 2px 6px #b5b6bb;
+    border: 0px solid #797979;
+}
+
+/* Spinner */
+.am-spinner {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    display: block;
+    position: relative;
+    top: 0px;
+    background-color: transparent;
+    border: 5px solid transparent;
+    border-color: #eee #eee #444 #444;
+    -webkit-animation: rotateLoading 1s linear 0s infinite normal;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: rotateLoading 1.5s linear 0s infinite normal;
+    -moz-transform-origin: 50% 50%;
+    animation: rotateLoading 1.5s linear 0s infinite normal;
+    transform-origin: 50% 50%;
+    transition: all 0.1s ease-in;
+}
+
+@keyframes rotateLoading {
+    0%  { transform: rotate(0deg); -webkit-transform: rotate(0deg);} 
+    100% { transform: rotate(360deg); -webkit-transform: rotate(360deg);}
+}
+
+@-webkit-keyframes rotateLoading {
+    0%  { -webkit-transform: rotate(0deg);}
+    100% { -webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotateLoading {
+    0%  { -moz-transform: rotate(0deg);}
+    100% { -moz-transform: rotate(360deg);}
+}
+
+.spinner-center {
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.btn_shadow {
+        -webkit-box-shadow: 2px 3px 0px rgba(4, 4, 4, 0.3);
+        -moz-box-shadow:    2px 3px 0px rgba(4, 4, 4, 0.3);
+        box-shadow:         2px 3px 0px rgba(4, 4, 4, 0.3);
+    border-radius:0;
+}
+        
+.btn_shadow:active:focus,
+.btn_shadow:focus:hover,
+.btn_shadow:focus {
+            -moz-outline-style: none;
+            outline: medium none;
+}
+        
+.btn_shadow:active,
+.btn_shadow.active {
+            top: 2px;
+}

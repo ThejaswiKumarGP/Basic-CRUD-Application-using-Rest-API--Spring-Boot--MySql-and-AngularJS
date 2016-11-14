@@ -1,0 +1,97 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 0px;
+}.flaticon-error:before {
+	content: "\e000";
+}
+.flaticon-mobile:before {
+	content: "\e001";
+}
+.flaticon-manifest:before {
+	content: "\e002";
+}
+.flaticon-configurator:before {
+	content: "\e003";
+}
+.flaticon-settings:before {
+	content: "\e004";
+}
+.flaticon-packaudit:before {
+	content: "\e005";
+}
+.flaticon-correct:before {
+	content: "\e006";
+}
+.flaticon-count:before {
+	content: "\e007";
+}
+.flaticon-wrong:before {
+	content: "\e008";
+}
+.flaticon-receive:before {
+	content: "\e009";
+}
+.flaticon-pack:before {
+	content: "\e00a";
+}
+.flaticon-inventory:before {
+	content: "\e00b";
+}
+.flaticon-fire:before {
+	content: "\e00c";
+}
+.flaticon-console:before {
+	content: "\e00d";
+}
+.flaticon-home:before {
+	content: "\e00e";
+}
+.flaticon-info:before {
+	content: "\e00f";
+}
+.flaticon-back:before {
+	content: "\e010";
+}
+.flaticon-logout:before {
+	content: "\e011";
+}
+.flaticon-nohands:before {
+	content: "\e012";
+}
+.flaticon-adhocmove:before {
+	content: "\e013";
+}
+.flaticon-pick:before {
+	content: "\e014";
+}
+.flaticon-putaway:before {
+	content: "\e015";
+}
+.flaticon-profile:before {
+	content: "\e016";
+}
+.flaticon-success:before {
+	content: "\e017";
+}
+.flaticon-switchui:before {
+	content: "\e018";
+}
+.flaticon-blindreceive:before {
+	content: "\e019";
+}
+.flaticon-warning15:before {
+	content: "\e01a";
+}

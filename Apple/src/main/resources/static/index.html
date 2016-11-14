@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">  
+ <body ng-app="myApp">
+ <div ng-controller="PersonController">
+    <h1> Server Side Project </h1>
+	<form name="personForm" >
+	
+	 <table>
+	      <tr><th>ID </th> <th>Name</th> <th>email</th></tr>
+	      <tr ng-repeat="row in persons">
+	         <td><span ng-bind="row.id"></span></td>
+	         <td><span ng-bind="row.name"></span></td>
+	         <td><span ng-bind="row.email"></span></td>
+	         <td>
+		  </tr>	
+	</table>
+	<p class="bg-info info-msg" id="info1">{{Message}}</p>
+	<div class="form-group" >
+        <label class=blue_font>Name</label>
+        <input class=form-control type="text" id="Name" ng-model="personForm.name" placeholder="Name" autocomplete="off">
+    </div>
+    
+    <div class="form-group" >
+        <label class=blue_font>Email</label>
+        <input class=form-control type="text" id="Email" ng-model="personForm.email" placeholder="Email" autocomplete="off">
+    </div>
+    
+    <div class="form-group" >
+        <label class=blue_font>Password</label>
+        <input class=form-control type="text" id="password" ng-model="personForm.password" placeholder="Password" autocomplete="off">
+    </div>
+    
+    <div class="form-group" >
+        <label class=blue_font>Mobile</label>
+        <input class=form-control type="text" id="Mobile" ng-model="personForm.mobile" placeholder="Mobile" autocomplete="off">
+    </div>
+
+ 
+ <div class="btn-wrapper">
+  <div class="row-gutter-5">
+    <div class="col-md-4 col-xs-6 col-sm-6">
+      <button class="btn btn_blue" type="button" data-ng-click="create()" id="Create" >Create</button>
+    </div>
+    <div class="col-md-4 col-xs-6 col-sm-6">
+      <button class="btn btn_blue" type="button" data-ng-click="refresh()" id="refresh">Refresh</button>
+    </div>
+  </div>
+</div>
+	
+	<div class="form-group" >
+        <label class=blue_font>ID</label>
+        <input class=form-control type="text" id="ID" ng-model="personForm.id" placeholder="ID" autocomplete="off">
+    </div>      
+	 <div class="btn-wrapper">
+  <div class="row-gutter-5">
+    <div class="col-md-4 col-xs-6 col-sm-6">
+      <button class="btn btn_blue" type="button" data-ng-click="deleteRec()" id="Delete" >Delete</button>
+    </div>
+    <div class="col-md-4 col-xs-6 col-sm-6">
+      <button class="btn btn_blue" type="button" data-ng-click="update()" id="Update">Update</button>
+    </div>
+    </div>
+</div>     
+	      
+	</form>
+	</div>
+	<script src="./js/angular.min.js"></script>
+	<script src="./js/angular-resource.min.js"></script>
+	<script src="./js/app.js"></script>
+	<link rel="stylesheet" href="./css/style.css">	
+	<link rel="stylesheet" href="./css/theme-default.css">
+	<link rel="stylesheet" href="./css/theme-blue.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/custom.css">
+ </body>
+</html>   

@@ -1,0 +1,17 @@
+first Download all the necessary things and then start
+
+https://spring.io/tools/sts/all
+
+https://www.mysql.com/downloads/
+
+i have used AngularJS v1.4.8
+
+Update the DB properties in application.properties 
+
+i am using below db:
+Create database demo_springBoot;
+Select * from demo_springBoot.person;
+
+if you have any doubts let me know in the comments section of the youtube link
+https://www.youtube.com/watch?v=pdTuUaRrzbM
+
